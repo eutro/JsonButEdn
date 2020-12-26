@@ -1,0 +1,7 @@
+{:required           true,
+ :minVersion         "0.8",
+ :package            jsonbutedn.mixin,
+ :compatibilityLevel :JAVA_8,
+ :mixins             [TestMixin],
+ :client             [],
+ :injectors          {:defaultRequire 1}}

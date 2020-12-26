@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "jsonbutedn",
+  "version": "${version}",
+
+  "name": "JSON but EDN",
+  "description": "Use EDN wherever you would be forced to use JSON instead.",
+
+  "license": "MIT",
+
+  "mixins": [
+    "jsonbutedn.mixins.edn"
+  ],
+
+  "entrypoints": {
+    "gfh:prePrePreLaunch": [
+      "jsonbutedn.core"
+    ]
+  }
+}
